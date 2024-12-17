@@ -336,7 +336,29 @@
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
-  color: #999;
+  color: #545454;
   font-size: 14px;
   font-weight: bold;
+}
+
+.btn-primary-outline {
+  padding: 10px 30px;
+  border: 1px solid #47AFFF;
+  border-radius: 25px;
+  background: none;
+  cursor: pointer;
+  color: #47AFFF;
+}
+.btn-secondary {
+  padding: 10px 50px;
+  border: none;
+  border-radius: 25px;
+  background: #eeeeee;
+  cursor: pointer;
+  color: #47AFFF;
+}
+.issue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
