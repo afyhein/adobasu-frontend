@@ -11,6 +11,13 @@
   font-size: 14px;
 }
 
+#user_order_top_myacount_area h3:nth-child(2){
+  padding:12px 12px 12px 12px;
+  border-bottom: 1px solid #9A9A9A;
+  font-size: 14px;
+}
+
+
 #user_order_top_myacount_area .sec01 #breadcrumb_area {
   padding: 15px 15px;
 }
@@ -156,12 +163,6 @@
   padding: 6px;
 }
 
-#user_order_top_myacount_area h3:nth-child(2){
-  padding:12px 12px 12px 12px;
-  border-bottom: 1px solid #9A9A9A;
-  font-size: 14px;
-}
-
 #user_order_top_myacount_area .sec03 .box01 {
   padding: 12px;
   border-bottom: 0.5px solid #9A9A9A;
@@ -173,6 +174,36 @@
   border-bottom: 1px solid #9A9A9A;
   font-size: 14px;
 }
+
+
+
+#user_order_top_myacount_area .sec03 .box03 .select-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+}
+
+#user_order_top_myacount_area .sec03 .box03 .select-wrapper select {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#user_order_top_myacount_area .sec03 .box03 .select-wrapper::after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #555;
+  pointer-events: none; /* Prevent interaction */
+}
+
 
 .status-table, .shipping-table, .billing-table, .payment-table {
   width: 100%;
@@ -287,33 +318,6 @@
   cursor: pointer;
 }
 
-#user_order_top_myacount_area .sec03 .box03 .select-wrapper {
-  position: relative;
-  display: inline-block;
-  width: 250px;
-}
-
-#user_order_top_myacount_area .sec03 .box03 .select-wrapper select {
-  width: 100%;
-  padding: 5px 10px;
-  border-radius: 5px;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  cursor: pointer;
-  outline: none;
-}
-
-#user_order_top_myacount_area .sec03 .box03 .select-wrapper::after {
-  content: "\25BC";
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-  color: #555;
-  pointer-events: none; /* Prevent interaction */
-}
-
 .shipping-name{
   position: relative;
   width: 100%;
@@ -357,6 +361,7 @@
   cursor: pointer;
   color: #47AFFF;
 }
+
 .issue {
   display: flex;
   justify-content: space-between;
