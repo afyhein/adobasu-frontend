@@ -7,8 +7,15 @@ user_regist_contents
     padding-top: 15px;
 }
 
-.btn-outline {
-    text-decoration: none;
+.sec05 .box01 .address3, .sec06 .box01 .left-content {
+    flex-basis: 70%;
+}
+
+.sec05 .box01 .right-content, .sec06 .box01 .right-content {
+    flex-basis: 30%;
+}
+
+.border-red {
     padding: 5px 10px;
     border: 1px solid #FF4549;
     border-radius: 5px;
@@ -23,11 +30,6 @@ user_regist_contents
     margin-right: 5px;
 }
 
-/* .radio-group label {
-    color: #333;
-    display: flex;
-    align-items: center;
-} */
 
 .point-information {
     width: 100%;
@@ -70,4 +72,46 @@ user_regist_contents
     /* margin-right: 5px; */
     /* margin-top: -12px; */
     /* margin-bottom: -10px; */
+}
+
+.icon_convenience_store_s, .icon_post_office_s, .icon_yamato_s {
+    justify-content: flex-start !important;
+    border-bottom: 0.5px solid #FF4549;
+}
+
+/* Footer */
+.user_regist_contents .list-display .tit_name h3{font-size: 12px;}
+
+.user_regist_contents .tit h3 {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px 14px;
+}
+
+.user_regist_contents .bord-b {
+  border-bottom: 1px solid #9a9a9a;
+  margin: 0px;
+}
+.user_regist_contents .item-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #9a9a9a;
+}
+.user_regist_contents .item-display .icon_question2 h3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.user_regist_contents .item-display .icon_question2 p {
+  font-size: 8px;
+  padding: 5px 0px;
+  color: #545454;
+}
+
+.user_regist_contents .cart_privacy p {
+  font-size: 10px !important;
+}
+#footer_fix #copyright {
+  font-size: 8px;
 }
