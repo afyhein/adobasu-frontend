@@ -1,0 +1,170 @@
+@charset "Shift_JIS";
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+contribute1_contents
+-----------------------------------------------------------------------------*/
+#myacount_area nav#breadcrumb_area {
+	padding-top: 15px;
+}
+
+.contribute1_contents .sec02 .box01 .cart_contents {
+    border: none;
+}
+
+.contribute1_contents .sec02 .box01 .cart_contents .cart_item_img {
+    flex: none;
+}
+
+.contribute1_contents .sec02 .box01 .cart_contents .cart_item_img img {
+    border: none;
+}
+
+.section-title {
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #9A9A9A;
+    font-size: 14px;
+}
+
+.btn-red-outline {
+    display: inline-block;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #FF4549;
+    border-radius: 5px;
+    color: #FF4549;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #495057;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pulldown label {
+    width: 237px !important;
+}
+
+.pulldown label select {
+    width: 237px !important;
+}
+
+.form-group textarea {
+    min-height: 100px;
+    resize: none;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    min-height: 55px;
+    padding: 10px;
+    color: #fff;
+    background-color: #FF4549;
+    border: none;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+.required {
+    display: inline-block;
+    background-color: #FF4945;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.links {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #47AFFF;
+}
+
+/* Same Footer Section */
+#myacount_area .list-display {
+    margin-top: -40px;
+}
+
+#myacount_area .tit {
+    padding: 20px 15px;
+    display: flex;
+    align-items: baseline;
+    margin: 15px 0px;
+}
+
+#myacount_area .tit h1 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#myacount_area .bord-b {
+    border-bottom: 1px solid #9a9a9a;
+}
+
+#myacount_area .item-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+#myacount_area .item-display .icon_question2 h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#myacount_area .item-display .icon_question2 p {
+    font-size: 12px;
+    padding: 5px 0px;
+    color: #545454;
+}
+
+#myacount_area .cart_privacy p {
+    font-size: 12px !important;
+}
+
+#footer_fix #copyright {
+    font-size: 12px;
+}

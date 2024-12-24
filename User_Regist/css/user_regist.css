@@ -1,0 +1,73 @@
+/* CSS Document */
+
+/*-----------------------------------------------------------------------------
+user_regist_contents
+-----------------------------------------------------------------------------*/
+#myacount_area nav#breadcrumb_area {
+    padding-top: 15px;
+}
+
+.btn-outline {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #FF4549;
+    border-radius: 5px;
+    color: #FF4549;
+}
+
+.radio-group {
+    gap: 16px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* .radio-group label {
+    color: #333;
+    display: flex;
+    align-items: center;
+} */
+
+.point-information {
+    width: 100%;
+    background-color: #C1FACF;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.btn-red-regist {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #FF4549;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-submit input[type='submit'] {
+    -webkit-appearance: none;
+    font-size: 12px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #ff4945;
+    border: 1px solid #ff4945;
+    font-weight: normal;
+    width: 50px;
+    height: 30px;
+}
+
+.icon-bank-pay::after {
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: url(../images/common/icon_bank_pay.png) no-repeat left center;
+    background-size: contain;
+    vertical-align: middle;
+    /* margin-left: 0; */
+    /* margin-right: 5px; */
+    /* margin-top: -12px; */
+    /* margin-bottom: -10px; */
+}

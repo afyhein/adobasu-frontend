@@ -8,8 +8,7 @@
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="googlebot" content="INDEX,FOLLOW">
     <meta name="Keywords" content="アダルトグッズ,大人のおもちゃ,女性,通販,CIAOMO">
-    <meta http-equiv="description"
-        content="大人のおもちゃ専門店として、約20年の運営実績を誇るNLS。1万点を超える多種多様なアダルトグッズを取り揃え、クチコミ件数も5万件以上。最大12％ものお得なポイント還元制度やプライバシーに配慮した各種サービスも充実し、はじめての方でも安心してお買い物ができます。">
+    <meta http-equiv="description" content="大人のおもちゃ専門店として、約20年の運営実績を誇るNLS。1万点を超える多種多様なアダルトグッズを取り揃え、クチコミ件数も5万件以上。最大12％ものお得なポイント還元制度やプライバシーに配慮した各種サービスも充実し、はじめての方でも安心してお買い物ができます。">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="img/favicon.ico">
     <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png" sizes="180x180">
@@ -28,14 +27,6 @@
                 <h1 class="header-logo"><a href="/"><img src="images/common/header/logo_ciaomo.gif" alt="CIAOMO"></a>
                 </h1>
             </div>
-            <!--<nav class="header_gmenu">
-            <ul>
-                <li class="header_sp_search"><a href="" target="_self"><div><img src="images/common/header/header_sp_search.png" alt=""></div><div>商品を探す</div></a></li>
-                <li class="header_sp_info"><span class="badge">1</span><a href="" target="_self"><div><img src="images/common/header/header_sp_info.png" alt=""></div><div>お知らせ</div></a></li>
-                <li class="header_sp_beginner"><a href="" target="_self"><div><img src= "images/common/header/header_sp_beginner.png" alt=""></div><div>初めての方</div></a></li>
-            </ul>
-        </nav>-->
-
         </div>
     </header>
     <!-- //header -->
@@ -70,7 +61,7 @@
                                     <p>注文日時：2024/00/00 00:00</p>
                                     <p>注文番号：4880-2968</p>
                                 </div>
-                                <button class="prepare-status-btn">発送準備中</button>
+                                <button class="before-status-btn">発送準備前</button>
                             </div>
                             <h3 class="m-t30">ご注文商品</h3>
                             <ul>
@@ -142,7 +133,12 @@
                         <table class="status-table">
                             <tr>
                                 <th>お支払い方法</th>
-                                <td>銀行振り込み</td>
+                                <td>
+                                    <div class="payment-method">
+                                        <p>代引き</p>
+                                        <a class="btn-outline" href="#">変更</a>
+                                    </div>
+                                </td>
                             </tr>
                             <tr>
                                 <th>お支払状況</th>
@@ -159,22 +155,35 @@
                         <table class="payment-table">
                             <tr>
                                 <th>入金状況</th>
-                                <td>入金の確認が出来ています。</td>
+                                <td>
+                                    <a href="#" class="btn-success m-b10">入金確認済</a>
+                                    <p>入金の確認が出来ています。</p>
+                                </td>
                             </tr>
                             <tr>
                                 <th>在庫状況</th>
-                                <td>在庫の確認が出来ています。</td>
+                                <td>
+                                    <a href="#" class="btn-success m-b10">在庫あり</a>
+                                    <p>在庫の確認が出来ています。</p>
+                                </td>
                             </tr>
                             <tr>
                                 <th>サポート連絡</th>
-                                <td>ありません。</td>
+                                <td>
+                                    <a href="#" class="btn-success m-b10">確認済</a>
+                                    <p>ありません。</p>
+                                </td>
                             </tr>
                             <tr>
                                 <th>管理者</th>
-                                <td>お荷物が問題なく発送できる状態です。</td>
+                                <td>
+                                    <a href="#" class="btn-success m-b10">発送可能</a>
+                                    <p>お荷物が問題なく発送できる状態です。</p>
+                                </td>
                             </tr>
                         </table>
-                        <div style="display: flex;justify-content: space-around; align-items: center;width: 100%; height: 100px;">
+                        <div
+                            style="display: flex;justify-content: space-around; align-items: center;width: 100%; height: 100px;">
                             <div style="flex: 30%;"></div>
                             <div class="btn_red m-r10" style="width: 100%; flex: 70%;">
                                 <input type="submit" value="注文確認をメールで再送信する">
@@ -192,8 +201,28 @@
                                 <th>お届け予定日</th>
                                 <td>
                                     <p>2024/10/27（日） 16時～18時</p>
-                                    <p class="small m-t3">ただ今配送準備に入っております。恐れ入りますがお問い合わせはお電話にて御願い致します。</p>
-                                    <p class="red m-t20">※上記日付・時間は予定であり、処理状況の変更や配送トラブル等でご希望に添えない場合がございます。</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>お届け指定</th>
+                                <td>
+                                    <form action="#">
+                                        <label for="date">お届け日の指定</label>
+                                        <div class="select-wrapper m-t10 m-b10">
+                                            <select name="date" id="date">
+                                                <option value="1" selected>指定なし</option>
+                                            </select>
+                                        </div>
+                                        <label class="m-t10" for="time">お届け時間の指定</label>
+                                        <div class="select-wrapper m-t10">
+                                            <select name="time" id="time">
+                                                <option value="1" selected>指定なし</option>
+                                            </select>
+                                        </div>
+                                        <a class="btn-outline m-t10 m-b10" href="#" style="float: right;">変更</a>
+                                        <p class="red m-t10 small" style="clear: both;">
+                                            ※上記日付・時間は予定であり、処理状況の変更や配送トラブル等でご希望に添えない場合がございます。</p>
+                                    </form>
                                 </td>
                             </tr>
                             <tr>
@@ -224,16 +253,29 @@
                             <tr>
                                 <th>送り状記載名</th>
                                 <td>
-                                    <p>送り状に記載する商品名</p>
-                                    <p>バイブ</p>
-                                    <p>送り状に記載する配送元名</p>
-                                    <p>ダイワロジスティックス</p>
+                                    <p class="m-b10">送り状に記載する商品名</p>
+                                    <div class="shipping-name">
+                                        <input id="source-name" type="text" value="ダイワロジスティックス" placeholder="配送元名を入力" />
+                                        <span class="clear-btn">×</span>
+                                    </div>
+                                    <a class="btn-outline m-t10 m-b10" href="#" style="float: right;">変更</a>
+                                    <p class="m-b10" style=" clear: both;">送り状に記載する商品名</p>
+                                    <div class="shipping-name">
+                                        <input id="source-name" type="text" value="ダイワロジスティックス" placeholder="配送元名を入力" />
+                                        <span class="clear-btn">×</span>
+                                    </div>
+                                    <a class="btn-outline m-t10 m-b10" href="#" style="float: right;">変更</a>
                                 </td>
                             </tr>
                             <tr>
                                 <th>気遣いシールの
                                     有無</th>
-                                <td>希望しない</td>
+                                <td>
+                                    <div class="wish">
+                                        <p>希望しない</p>
+                                        <a class="btn-outline" href="#">変更</a>
+                                    </div>
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -249,7 +291,6 @@
                                 <td>
                                     <p>〒101-0044</p>
                                     <p>東京都千代田区鍛冶町00-000</p>
-                                    <p>XXXXビル1F</p>
                                 </td>
                             </tr>
                             <tr>
@@ -359,18 +400,12 @@
                 </div>
             </article>
             <!-- //myacount_area -->
-
         </main>
         <!-- //main -->
     </div>
     <!-- contents -->
     <footer id="footer_fix">
         <div class="wrap">
-
-
-
-
-
             <!-- copyright -->
             <div id="copyright" class="left">
                 Copyright (C) <!-- 2024- -->
