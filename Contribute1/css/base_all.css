@@ -54,7 +54,8 @@ body {
 	color: #545454;
     max-width: 100%;
     min-width: 320px;
-    font-family: "meiryo", "Helvetica Neue", /*"Segoe UI", */Helvetica, Arial, "hiragino kaku gothic pro", "ms pgothic", sans-serif;
+    font-family: "Helvetica Neue", /*"Segoe UI", */Helvetica, Arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+/*    font-family:"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;*/
 }
 
 *,::before,::after {
@@ -1129,7 +1130,7 @@ a:visited .btn_line_none,a:hover .btn_line_none,a:active .btn_line_none{text-dec
 .tag_Keyword{font-size: 10px; line-height: 1; border: 1px solid #ff9e47; color: #ff9e47; padding: 4px 8px 4px; display: inline-block;}
 
 
-.tit_name{padding: 20px 12px; border-bottom: 2px solid #ff4945; display: flex; align-items: baseline;}
+.tit_name{padding: 20px 15px; border-bottom: 2px solid #ff4945; display: flex; align-items: baseline;}
 .tit_name > h1 {font-size: 14px; line-height: 1.2; font-weight: bold; color: #545454; padding: 0; border:none;}
 .tit_name .result_number{font-size: 12px; color: #9a9a9a;}
 
@@ -1903,10 +1904,10 @@ input[type="submit"]:hover.btn_normal_red{opacity: 0.6;}
 .cart_total_amount dt,.cart_total_amount dd{font-size: 12px; line-height: 1;}
 .cart_total_amount .details{display: flex; justify-content: space-between; margin-top: 10px;}
 .cart_total_amount .total{display: flex; justify-content: space-between; margin-top: 20px;}
-.cart_total_amount .total dt,.cart_total_amount .total dd{font-size: 16px !important; margin-top: 10px;}
+.cart_total_amount .total dt,.cart_total_amount .total dd{font-size: 14px !important; font-weight: bold; margin-top: 10px;}
 .cart_total_amount dd{}
 .cart_total_amount .m-t10{margin-top: 10px!important;}
-.cart_total_amount .total_orange{display: flex; justify-content: space-between; align-items: center; margin-top: 15px;}
+.cart_total_amount .total_orange{display: flex; justify-content: space-between; margin-top: 15px;}
 .cart_total_amount .total_orange dt{font-size: 10px; line-height: 1; color: #fff; background-color: #ff9d45; padding: 5px 5px 4px; border-radius: 5px; width: 70px; height: 20px;}
 .cart_total_amount .total_orange dd{font-size: 12px; line-height: 1; font-weight: bold;}
 .btn_box{display: block;}
