@@ -7,11 +7,15 @@ user_regist_contents
     padding-top: 15px;
 }
 
-.sec05 .box01 .address3, .sec06 .box01 .left-content {
+.myacount_area h2 {
+  border-top: 1px solid #9a9a9a;
+}
+
+.sec05 .box01 .address3, .sec06 .box01 .left-content, .sec06 .box02 .left-content {
     flex-basis: 70%;
 }
 
-.sec05 .box01 .right-content, .sec06 .box01 .right-content {
+.sec05 .box01 .right-content, .sec06 .box01 .right-content, .sec06 .box02 .right-content {
     flex-basis: 30%;
 }
 
@@ -30,7 +34,6 @@ user_regist_contents
     margin-right: 5px;
 }
 
-
 .point-information {
     width: 100%;
     background-color: #C1FACF;
@@ -42,7 +45,7 @@ user_regist_contents
     display: inline-block;
     padding: 5px 10px;
     background-color: #FF4549;
-    color: #FFF;
+    color: #FFFFFF;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -51,13 +54,13 @@ user_regist_contents
     -webkit-appearance: none;
     font-size: 12px;
     padding: 5px;
-    background-color: #fff;
+    background-color: #FFF;
     border-radius: 5px;
     color: #ff4945;
     border: 1px solid #ff4945;
     font-weight: normal;
     width: 50px;
-    height: 30px;
+    height: 31px;
 }
 
 .icon-bank-pay::after {
@@ -68,15 +71,15 @@ user_regist_contents
     background: url(../images/common/icon_bank_pay.png) no-repeat left center;
     background-size: contain;
     vertical-align: middle;
-    /* margin-left: 0; */
-    /* margin-right: 5px; */
-    /* margin-top: -12px; */
-    /* margin-bottom: -10px; */
 }
 
 .icon_convenience_store_s, .icon_post_office_s, .icon_yamato_s {
     justify-content: flex-start !important;
     border-bottom: 0.5px solid #FF4549;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, textarea {
+  background-color: #EEEEEE !important;
 }
 
 /* Footer */
@@ -112,6 +115,7 @@ user_regist_contents
 .user_regist_contents .cart_privacy p {
   font-size: 10px !important;
 }
+
 #footer_fix #copyright {
   font-size: 8px;
 }
