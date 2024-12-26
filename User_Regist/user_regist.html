@@ -94,7 +94,9 @@
                                                 <input class="inputstyle input_add"
                                                     style="min-width:80px; ime-mode:inactive;" name="czip1" size="3"
                                                     maxlength="3" value="100"
-                                                    type="text">&nbsp;&nbsp;-&nbsp;&nbsp;<input
+                                                    type="text">
+                                                    <div class="p-lr10">-</div>
+                                                    <input
                                                     class="inputstyle input_add"
                                                     style="min-width:80px; ime-mode:inactive;" name="czip2" size="4"
                                                     maxlength="4" value="1000" type="text">
@@ -110,8 +112,8 @@
                                         <div class="pulldown m-b5">
                                             <div>都道府県<span class="required_red">必須</span></div>
                                             <input class="inputstyle input_add valid"
-                                                style="width:100%;ime-mode: active;" name="prefecture" size="15" value=""
-                                                type="text" placeholder="東京都" aria-required="true"
+                                                style="width:100%;ime-mode: active;" name="prefecture" size="15"
+                                                value="" type="text" placeholder="東京都" aria-required="true"
                                                 aria-invalid="false">
                                         </div>
                                         <div>
@@ -328,6 +330,8 @@
                                 <label><input type="radio" name="occupation" value="自営業"> 自営業</label>
                                 <label><input type="radio" name="occupation" value="役員"> 役員</label>
                                 <label><input type="radio" name="occupation" value="主婦"> 主婦</label>
+                            </div>
+                            <div class="radio-group flex_layout flex_a_center advanced_flex_wrap m-t15">
                                 <label><input type="radio" name="occupation" value="学生"> 学生</label>
                                 <label><input type="radio" name="occupation" value="無職"> 無職</label>
                                 <label><input type="radio" name="occupation" value="その他"> その他</label>
@@ -335,7 +339,8 @@
                         </div>
                         <div class="point-information txt_center m-t25">
                             <p>生年月日・アンケートにすべて回答すると <br>
-                                <span class="txt_red ts16 fw-b">100ポイントプレゼント</span>（初回のみ）</p>
+                                <span class="txt_red ts16 fw-b">100ポイントプレゼント</span>（初回のみ）
+                            </p>
                         </div>
                         <div class="btn_red m-t15">
                             <input type="submit" value="登録する">
@@ -378,8 +383,10 @@
                         <h2>店舗で受け取る</h2>
                     </div>
                     <div class="sec06 p-lr12 m-t25">
-                         <div class="box01">
-                            <div class="icon_convenience_store_s m-t10 p-b5"><h3 class="txt_red">コンビニ受取り</h3></div>
+                        <div class="box01">
+                            <div class="icon_convenience_store_s m-t10 p-b5">
+                                <h3 class="txt_red">コンビニ受取り</h3>
+                            </div>
                             <div class="flex_layout">
                                 <div class="left-content">
                                     <h3 class="fs16 m-t10 fw-b">ローソン ＬＴＦ京成千葉中央駅前 店</h3>
@@ -394,9 +401,11 @@
                                     </div>
                                 </div>
                             </div>
-                         </div>   
-                         <div class="box02 m-t25">
-                            <div class="icon_post_office_s m-t10 p-b5"><h3 class="txt_red">コンビニ受取り</h3></div>
+                        </div>
+                        <div class="box02 m-t25">
+                            <div class="icon_post_office_s m-t10 p-b5">
+                                <h3 class="txt_red">コンビニ受取り</h3>
+                            </div>
                             <div class="flex_layout">
                                 <div class="left-content">
                                     <h3 class="fs16 m-t10 fw-b">美浜郵便局</h3>
@@ -411,9 +420,11 @@
                                     </div>
                                 </div>
                             </div>
-                         </div>   
-                         <div class="box03 m-t25">
-                            <div class="icon_yamato_s m-t10 p-b5"><h3 class="txt_red">コンビニ受取り</h3></div>
+                        </div>
+                        <div class="box03 m-t25">
+                            <div class="icon_yamato_s m-t10 p-b5">
+                                <h3 class="txt_red">コンビニ受取り</h3>
+                            </div>
                             <div class="flex_layout flex_j_between m-t10">
                                 <div class="left-content">
                                     <h3 class="fs16 fw-b">未登録</h3>
@@ -422,121 +433,67 @@
                                     <a href="#" class="btn-red-regist">新規登録する</a>
                                 </div>
                             </div>
-                         </div>
-                         <div class="btn_red m-t25">
-                            <input type="submit" value="登録する">
-                        </div>   
-                    </div>
-                    <div class="list-display">
-                        <div class="tit bord-b">
-                            <h3 class="m-t25">会員情報</h3>
-                            <!--<div class="item_list d-none"><a href="" target="_blank">すべてみる</a></div>-->
                         </div>
-                        <ul>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3>ご登録情報</h3>
-                                        <p>ご住所、配送方法の追加・変更。</p>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
+                        <div class="btn_red m-t25">
+                            <input type="submit" value="登録する">
+                        </div>
+                    </div>
+                    <!-- list-display start -->
+                    <div class="myacount_area">
+                        <h2>会員情報</h2>
+                        <ul class="myacount_list">
+                            <li class="icon_guide_account"><a href="/" target="_blank">ご登録情報<p>ご住所、配送方法の追加・変更</p></a>
                             </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3>メールアドレス・パスワード変更</h3>
-                                        <p>メールアドレス・パスワードの変更。</p>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3>2段階認証</h3>
-                                        <p>セキュリティ設定。</p>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3>メールマガジン</h3>
-                                        <p>登録・解除。</p>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3>会員限定アンケート</h3>
-                                        <p>アンケートに答えてポイントをゲット。</p>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3 class="p-t5">会員規約</h3>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3 class="p-t5">ログアウト</h3>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
-                            <li>
-                                <a href="" class="item-display">
-                                    <div class="icon_question2">
-                                        <h3 class="p-t5">退会</h3>
-                                    </div>
-                                    <div class="right_arrow"><span class="dli-chevron-right"></span></div>
-                                </a>
-
-                            </li>
+                            <li class="icon_guide_mail"><a href="/" target="_blank">メールアドレス・パスワード変更<p>メールアドレス・パスワードの変更
+                                    </p></a></li>
+                            <li class="icon_guide_security"><a href="/" target="_blank">2段階認証<p>セキュリティ設定</p></a></li>
+                            <li class="icon_guide_magazine"><a href="/" target="_blank">メールマガジン<p>登録・解除</p></a></li>
+                            <li class="icon_guide_questionnaire"><a href="/" target="_blank">会員限定アンケート<p>アンケートに答えてポイントをゲット</p></a></li>
+                            <li class="icon_guide_service"><a href="/" target="_blank">会員規約</a></li>
+                            <li class="icon_guide_logout"><a href="/" target="_blank">ログアウト</a></li>
+                            <li class="icon_guide_withdrawal"><a href="/" target="_blank">退会<p class="txt_red">※現在発注前のご注文がありますので、退会処理はできません。</p></a></li>
                         </ul>
                     </div>
+                    <!-- //list-display -->
+
+                    <!-- cart_privacy -->
                     <div class="cart_privacy">
-                        <div><a href="" target="_blank"><img src="images/common/footer/degi_smart.png" alt=""></a></div>
-                        <p>当店はお客様の個人情報をSSL暗号化し、安全な通信を提供しています。</p>
+                        <div>
+                            <a href="" target="_blank"><img src="images/common/footer/degi_smart.png" alt="" /></a>
+                        </div>
+                        <p>
+                            当店はお客様の個人情報をSSL暗号化し、安全な通信を提供しています。
+                        </p>
                     </div>
+                    <!-- //cart_privacy -->
+
                 </div>
-                <!-- //user_regist -->
+                <!-- //contri_login -->
+
             </article>
             <!-- //myacount_area -->
+
         </main>
         <!-- //main -->
+
     </div>
     <!-- contents -->
+
+    <!-- footer -->
     <footer id="footer_fix">
         <div class="wrap">
-            <!-- copyright -->
-            <div id="copyright" class="left">
-                Copyright (C) <!-- 2024- -->
+            <div id="copyright">
+                Copyright (C)
                 <script type="text/javascript">
                     document.write(new Date().getFullYear());
-                </script>2024 大人のおもちゃとアダルトグッズ通販ショップ 1 NIGHT LOVE STORY　All Rights Reserved.<br>1 NIGHT LOVE
+                </script>
+                大人のおもちゃとアダルトグッズ通販ショップ 1 NIGHT LOVE STORY　All
+                Rights Reserved.<br />1 NIGHT LOVE
                 STORY　株式会社ニジューヨン・ビムーンズ
             </div>
-            <!-- //copyright -->
         </div>
     </footer>
+    <!-- //footer -->
 </body>
 
 </html>

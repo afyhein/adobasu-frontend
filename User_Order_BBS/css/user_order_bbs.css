@@ -1,241 +1,48 @@
-@charset "Shift_JIS";
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
 �@user_order_bbs_myacount_area
 -----------------------------------------------------------------------------*/
-#user_order_bbs_myacount_area .sec01 #breadcrumb_area {
-  /* padding: 15px 15px; */
-}
+/* common */
+nav#breadcrumb_area {padding-top: 15px;}
+.sec-full, .sec {border-bottom: 1px solid #9A9A9A;}
+.sec {padding: 15px;}
 
-#user_order_bbs_myacount_area .sec01 #breadcrumb_area ul li {
-  font-size: 10px;
-}
+/* status_btn_component */
+.status-btn {width: max-content;height: max-content;border: none;padding: 5px;border-radius: 5px;cursor: pointer;background-color: #9a9a9a;color: #fff;font-size: 10px;}
+.status-btn.success {background-color: #C1FACF;color: #ff4549}
+.status-btn.warning {background-color: #fdf995;color: #ff4549;}
 
-#user_order_bbs_myacount_area .sec01 {
-  margin-bottom: 12px;
-}
+/* ////////////////// section_01 ////////////////// */
+.sec01 {border-bottom: none;}
 
-.section-title {
-  padding: 12px 12px 12px 12px;
-  margin-top: 10px;
-  border-bottom: 1px solid #9A9A9A;
-  font-size: 14px;
-}
+/* ////////////////// section_02 ////////////////// */
+.order-status {display: flex;margin-top: 10px;}
+.order-detail {display: flex;flex-direction: column;gap: 7px;}
+.status-btn {margin-left: auto;}
 
-#user_order_bbs_myacount_area .sec02 .box01 .order-card {
-  overflow: hidden;
-  margin: auto;
-}
+/* ////////////////// section_03 ////////////////// */
+.order-item {width: 100%;display: flex;flex-direction: column;}
+.order-item > div {width: 100%;display: flex;}
+.order-item span {width: 30%;text-align: right;}
+.order-item p {width: 40%;text-align: left;padding: 2px 0;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-header,
-.box02 .order-card .order-header,
-.box03 .order-card .order-header {
-  background-color: #eeeeee;
-  padding: 1px;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-header p:nth-child(1),
-.box02 .order-card .order-header p:nth-child(1),
-.box03 .order-card .order-header p:nth-child(1) {
-  margin: 0;
-  padding-bottom: 0px !important;
-  font-size: 19px !important;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-header p:nth-child(2),
-.box02 .order-card .order-header p:nth-child(2),
-.box03 .order-card .order-header p:nth-child(2) {
-  color: #666;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status {
+.contain {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 12px;
-  border-bottom: 1px solid #bdb8b8;
 }
 
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status span,
-.box02 .order-card .order-status span,
-.box03 .order-card .order-status span {
-  font-size: 14px;
-  color: #666;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status .prepare-status-btn {
-  background-color: #FDF995;
-  color: #FF4549;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status .before-status-btn {
-  background-color: #707070;
-  color: #FFFFFF;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status .complete-status-btn {
-  background-color: #C1FACF;
-  color: #FF4549;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 5px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-#user_order_bbs_myacount_area .sec02 .box01 .order-card .order-status .order-detail p {
-  padding: 6px 0px;
-}
-
-#user_order_bbs_myacount_area .list-display {
-  margin-top: -40px;
-}
-
-#user_order_bbs_myacount_area .tit {
-  padding: 20px 15px;
-  display: flex;
-  align-items: baseline;
-  margin: 15px 0px;
-}
-
-#user_order_bbs_myacount_area .tit h1 {
-  font-weight: bold;
-  font-size: 14px;
-}
-
-#user_order_bbs_myacount_area .bord-b {
-  border-bottom: 1px solid #9a9a9a;
-}
-
-#user_order_bbs_myacount_area .item-display {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  border-bottom: 1px solid #9a9a9a;
-}
-
-#user_order_bbs_myacount_area .item-display .icon_question2 h3 {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-#user_order_bbs_myacount_area .item-display .icon_question2 p {
-  font-size: 12px;
-  padding: 5px 0px;
-  color: #545454;
-}
-
-#user_order_bbs_myacount_area .cart_privacy p {
-  font-size: 12px !important;
-}
-
-#footer_fix #copyright {
-  font-size: 12px;
-}
-
-.order-summary {
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 0px 12px 0px;
-}
-
-.order-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-}
-
-.item-name {
-  flex: 1;
-  font-size: 14px;
-  overflow: hidden;
-}
-
-.item-details {
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
-}
-
-.chat-container {
-  padding: 16px 12px;
-}
-
-.chatbox {
-  margin-bottom: 10px;
-  border-bottom: 1px solid #dddbdb;
-  padding-bottom: 12px;
-}
-
-.chat-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.chat-message {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  flex: 90%;
-}
-
-.chat-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #ddd;
-  flex: 10%;
-}
-
-.chat-meta {
-  color: #999;
-  padding-top: 10px;
-}
-
-.input-section {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.chat-container textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  resize: none;
-  font-size: 14px;
-}
-
-.chat-container button {
-  width: 100%;
-  height: 55px;
-  background-color: #ffa500;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 16px;
-  align-self: flex-end;
-}
-
-.chat-container button:hover {
-  background-color: #ff8800;
-}
+/* ////////////////// section_04 ////////////////// */
+.myacount_area h3 {border-bottom: 1px solid #9a9a9a;padding: 9px 15px 5px;color: #9a9a9a;}
+.chat-list li {border-bottom: 1px solid #9a9a9a;padding: 15px 0 10px;}
+.chat-row {display: flex;gap: 10px;}
+.chat-list li:has(.service) .chat-meta {text-align: start;}
+.chat-list .chat-row.service {flex-direction: row-reverse;text-align: start;}
+.chat-message {width: max-content;border: 1px solid #ddd;padding: 10px;border-radius: 10px;line-break: anywhere;max-width: calc(100% - 40px);}
+.chat-icon {width: 40px;height: 40px;min-width: 40px;}
+.chat-icon img {width: 100%;vertical-align: baseline;}
+.chat-meta {font-size: 8px;color: #999;padding-top: 10px;text-align: end;}
+.sec04 .accordion {display: flex;flex-direction: column;gap: 10px;margin-top: 20px;}
+.sec04 .accordion textarea {  resize: none;}
+.btn_red input[type="submit"]:enabled {background-color: #ffa500;}
+.btn_red input[type="submit"]:enabled:hover {background-color: #ff8800;}

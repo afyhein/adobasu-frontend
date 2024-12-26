@@ -7,6 +7,10 @@ user_regist_contents
     padding-top: 15px;
 }
 
+.myacount_area {
+  margin-top: 25px !important;
+}
+
 .myacount_area h2 {
   border-top: 1px solid #9a9a9a;
 }
@@ -80,6 +84,11 @@ user_regist_contents
 
 input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, textarea {
   background-color: #EEEEEE !important;
+}
+
+.sp-addr-num-wrap {
+  justify-content: flex-start !important;
+  gap: 15px;
 }
 
 /* Footer */
