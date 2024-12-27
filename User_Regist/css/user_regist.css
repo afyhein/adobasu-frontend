@@ -3,24 +3,25 @@
 /*-----------------------------------------------------------------------------
 user_regist_contents
 -----------------------------------------------------------------------------*/
+
 #myacount_area nav#breadcrumb_area {
     padding-top: 15px;
 }
 
-.myacount_area {
-  margin-top: 25px !important;
+.user_regist_contents {
+  padding-top: 10px;
 }
 
 .myacount_area h2 {
   border-top: 1px solid #9a9a9a;
 }
 
-.sec05 .box01 .address3, .sec06 .box01 .left-content, .sec06 .box02 .left-content {
-    flex-basis: 70%;
+.flex-b-70 {
+  flex-basis: 70%;
 }
 
-.sec05 .box01 .right-content, .sec06 .box01 .right-content, .sec06 .box02 .right-content {
-    flex-basis: 30%;
+.flex-b-30 {
+  flex-basis: 30%;
 }
 
 .border-red {
@@ -54,7 +55,7 @@ user_regist_contents
     border-radius: 5px;
 }
 
-.custom-submit input[type='submit'] {
+.red-outline-btn input[type='submit'] {
     -webkit-appearance: none;
     font-size: 12px;
     padding: 5px;
@@ -89,42 +90,4 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, t
 .sp-addr-num-wrap {
   justify-content: flex-start !important;
   gap: 15px;
-}
-
-/* Footer */
-.user_regist_contents .list-display .tit_name h3{font-size: 12px;}
-
-.user_regist_contents .tit h3 {
-  font-weight: bold;
-  font-size: 14px;
-  padding: 0px 14px;
-}
-
-.user_regist_contents .bord-b {
-  border-bottom: 1px solid #9a9a9a;
-  margin: 0px;
-}
-.user_regist_contents .item-display {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px;
-  border-bottom: 1px solid #9a9a9a;
-}
-.user_regist_contents .item-display .icon_question2 h3 {
-  font-size: 12px;
-  font-weight: 500;
-}
-.user_regist_contents .item-display .icon_question2 p {
-  font-size: 8px;
-  padding: 5px 0px;
-  color: #545454;
-}
-
-.user_regist_contents .cart_privacy p {
-  font-size: 10px !important;
-}
-
-#footer_fix #copyright {
-  font-size: 8px;
 }
