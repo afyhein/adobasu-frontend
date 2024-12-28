@@ -4,7 +4,7 @@
 �@user_order_bbs_myacount_area
 -----------------------------------------------------------------------------*/
 /* common */
-nav#breadcrumb_area {padding-top: 15px;}
+#breadcrumb_area {padding-top: 15px;}
 .sec-full, .sec {border-bottom: 1px solid #9A9A9A;}
 .sec {padding: 15px;}
 

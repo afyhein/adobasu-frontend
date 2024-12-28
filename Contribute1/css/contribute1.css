@@ -1,21 +1,21 @@
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
-contribute1_contents
+contribute1_myacount_area
 -----------------------------------------------------------------------------*/
-#myacount_area nav#breadcrumb_area {
+#breadcrumb_area {
 	padding-top: 15px;
 }
 
-.contribute1_contents .sec02 .box01 .cart_contents {
+.contribute1_my_acount_area .sec02 .box01 .cart_contents {
     border: none;
 }
 
-.contribute1_contents .sec02 .box01 .cart_contents .cart_item_img {
+.contribute1_my_acount_area .sec02 .box01 .cart_contents .cart_item_img {
     flex: none;
 }
 
-.contribute1_contents .sec02 .box01 .cart_contents .cart_item_img img {
+.contribute1_my_acount_area .sec02 .box01 .cart_contents .cart_item_img img {
     border: none;
 }
 

@@ -1,14 +1,14 @@
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
-user_regist_contents
+user_regist_myacount_area
 -----------------------------------------------------------------------------*/
 
-#myacount_area nav#breadcrumb_area {
+#breadcrumb_area {
     padding-top: 15px;
 }
 
-.user_regist_contents {
+.user_regist_my_acount_area {
   padding-top: 10px;
 }
 
