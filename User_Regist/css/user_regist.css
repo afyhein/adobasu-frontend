@@ -1,93 +1,65 @@
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
-user_regist_myacount_area
+Breadcrumb Area
 -----------------------------------------------------------------------------*/
 
-#breadcrumb_area {
-    padding-top: 15px;
+#breadcrumb_area { padding-top: 15px; }
+
+/*-----------------------------------------------------------------------------
+User Registration My Account Area
+-----------------------------------------------------------------------------*/
+
+.user_regist_my_acount_area { padding-top: 10px; } 
+.myacount_area h2 { border-top: 1px solid #9a9a9a; } 
+.flex-b-70, .flex-b-30 { flex-basis: 70%, 30%; }
+
+/*-----------------------------------------------------------------------------
+Input Styles
+-----------------------------------------------------------------------------*/
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, textarea { background-color: #EEEEEE !important; } 
+.radio-group { gap: 16px; } 
+.radio-group input[type="radio"] { margin-right: 5px; } 
+.point-information { width: 100%; background-color: #C1FACF; padding: 5px 0px; border-radius: 5px; } 
+.sp-addr-num-wrap { justify-content: flex-start !important; gap: 15px; }
+
+/*-----------------------------------------------------------------------------
+Custom Input Styles
+-----------------------------------------------------------------------------*/
+
+/* For inputs with active IME mode */
+.input-ime-active {
+    ime-mode: active;
 }
 
-.user_regist_my_acount_area {
-  padding-top: 10px;
+/* For inputs with inactive IME mode */
+.input-ime-inactive {
+    ime-mode: inactive;
 }
 
-.myacount_area h2 {
-  border-top: 1px solid #9a9a9a;
+/* For inputs with minimum width of 80px */
+.input-min-width-80 {
+    min-width: 80px;
 }
 
-.flex-b-70 {
-  flex-basis: 70%;
-}
-
-.flex-b-30 {
-  flex-basis: 30%;
-}
-
-.border-red {
-    padding: 5px 10px;
-    border: 1px solid #FF4549;
-    border-radius: 5px;
-    color: #FF4549;
-}
-
-.radio-group {
-    gap: 16px;
-}
-
-.radio-group input[type="radio"] {
-    margin-right: 5px;
-}
-
-.point-information {
+/* For inputs with 100% width */
+.input-width-100 {
     width: 100%;
-    background-color: #C1FACF;
-    padding: 5px 0px;
-    border-radius: 5px;
 }
 
-.btn-red-regist {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #FF4549;
-    color: #FFFFFF;
-    cursor: pointer;
-    border-radius: 5px;
-}
+/*-----------------------------------------------------------------------------
+Border and Button Styles
+-----------------------------------------------------------------------------*/
 
-.red-outline-btn input[type='submit'] {
-    -webkit-appearance: none;
-    font-size: 12px;
-    padding: 5px;
-    background-color: #FFF;
-    border-radius: 5px;
-    color: #ff4945;
-    border: 1px solid #ff4945;
-    font-weight: normal;
-    width: 50px;
-    height: 31px;
-}
+.border-red, .btn-red-regist, .red-outline-btn input[type='submit'] { padding: 5px 10px; border-radius: 5px; } 
+.border-red { border: 1px solid #FF4549; color: #FF4549; } 
+.btn-red-regist { display: inline-block; background-color: #FF4549; color: #FFFFFF; cursor: pointer; } 
+.red-outline-btn input[type='submit'] { -webkit-appearance: none; font-size: 12px; background-color: #FFF; color: #ff4945; border: 1px solid #ff4945; font-weight: normal; width: 50px; height: 31px; }
 
-.icon-bank-pay::after {
-    content: '';
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    background: url(../images/common/icon_bank_pay.png) no-repeat left center;
-    background-size: contain;
-    vertical-align: middle;
-}
+/*-----------------------------------------------------------------------------
+Icon Styles
+-----------------------------------------------------------------------------*/
 
-.icon_convenience_store_s, .icon_post_office_s, .icon_yamato_s {
-    justify-content: flex-start !important;
-    border-bottom: 0.5px solid #FF4549;
-}
-
-input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, textarea {
-  background-color: #EEEEEE !important;
-}
-
-.sp-addr-num-wrap {
-  justify-content: flex-start !important;
-  gap: 15px;
-}
+.icon-bank-pay::after { content: ''; display: inline-block; width: 35px; height: 35px; background: url(../images/common/icon_bank_pay.png) no-repeat left center; background-size: contain; vertical-align: middle; } 
+.icon_convenience_store_s, .icon_post_office_s, .icon_yamato_s { justify-content: flex-start !important; border-bottom: 0.5px solid #FF4549; }
