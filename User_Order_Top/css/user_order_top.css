@@ -4,8 +4,7 @@
 �@user_order_top_myacount_area
 -----------------------------------------------------------------------------*/
 
-/* common */
-nav#breadcrumb_area {padding-top: 15px;}
+#breadcrumb_area {padding-top: 15px;}
 .sec-full, .sec {border-bottom: 1px solid #9A9A9A;}
 .sec {padding: 15px;}
 a.link {color: #47AFFF;text-decoration: underline;}
@@ -18,12 +17,20 @@ a.link {color: #47AFFF;text-decoration: underline;}
 .cart_item_list .cart_item_txt p:first-child {font-weight: bold;}
 .cart_item_list .cart_contents {border-top: none;border-bottom: 1px solid #9A9A9A;}
 
-/* status_btn_component */
-.btn {width: max-content;height: max-content;border: none;padding: 5px;border-radius: 5px;cursor: pointer;background-color: #9a9a9a;color: #fff;font-size: 12px;}
-.btn.success {background-color: #C1FACF;color: #ff4549}
-.btn.warning {background-color: hsl(58, 96%, 79%);color: #ff4549;}
+/* button */
+.btn-secondary {width: max-content;height: max-content;border: none;padding: 5px;border-radius: 5px;cursor: pointer;background-color: #9a9a9a;color: #fff;font-size: 12px;}
+.btn-success {background-color: #C1FACF;color: #ff4549}
+.btn-warning {background-color: hsl(58, 96%, 79%);color: #ff4549;}
+.btn-outline {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #FF4549;
+    border-radius: 5px;
+    color: #FF4549;
+    cursor: pointer;
+}
 
-/* .common_table_components */
+/* table */
 .table {width: 100%;margin: 0 auto;border-collapse: collapse;text-align: left;}
 .table tr {border-bottom: 1px solid #9a9a9a;}
 .table tr:last-child {border-bottom: none;}
@@ -32,15 +39,13 @@ a.link {color: #47AFFF;text-decoration: underline;}
 .table td > div {display: flex;flex-direction: column;gap: 9px;}
 .table td > span {display: flex;flex-direction: row;}
 
-/* order_status_components */
-.order-status {display: flex;margin-top: 10px;}
+/* Order */
+.order-status {display: flex;margin-top: 10px; justify-content: space-between;}
 .order-detail {display: flex;flex-direction: column;gap: 7px;}
-.btn {margin-left: auto;}
 
-/* ////////////////// user_order_top ////////////////// */
-.user_order_top .optional-mark{padding: 8px 13px;font-size: inherit;margin-left: auto;margin-bottom: 0;}
 
-/* ////////////////// section_02 ////////////////// */
+
+/* sec02 */
 .sec02 {padding-top: 0;padding-bottom: 0;}
 
 /* ////////////////// section_04 ////////////////// */
