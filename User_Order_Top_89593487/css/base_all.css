@@ -1,3 +1,4 @@
+@charset "Shift_JIS";
 /* CSS Document */
 
 /*-----------------------------------------------------------------------------
@@ -53,8 +54,7 @@ body {
 	color: #545454;
     max-width: 100%;
     min-width: 320px;
-    font-family: "Helvetica Neue", /*"Segoe UI", */Helvetica, Arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
-/*    font-family:"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;*/
+    font-family: "meiryo", "Helvetica Neue", /*"Segoe UI", */Helvetica, Arial, "hiragino kaku gothic pro", "ms pgothic", sans-serif;
 }
 
 *,::before,::after {
@@ -1903,10 +1903,10 @@ input[type="submit"]:hover.btn_normal_red{opacity: 0.6;}
 .cart_total_amount dt,.cart_total_amount dd{font-size: 12px; line-height: 1;}
 .cart_total_amount .details{display: flex; justify-content: space-between; margin-top: 10px;}
 .cart_total_amount .total{display: flex; justify-content: space-between; margin-top: 20px;}
-.cart_total_amount .total dt,.cart_total_amount .total dd{font-size: 14px !important; font-weight: bold; margin-top: 10px;}
+.cart_total_amount .total dt,.cart_total_amount .total dd{font-size: 16px !important; margin-top: 10px;}
 .cart_total_amount dd{}
 .cart_total_amount .m-t10{margin-top: 10px!important;}
-.cart_total_amount .total_orange{display: flex; justify-content: space-between; margin-top: 15px;}
+.cart_total_amount .total_orange{display: flex; justify-content: space-between; align-items: center; margin-top: 15px;}
 .cart_total_amount .total_orange dt{font-size: 10px; line-height: 1; color: #fff; background-color: #ff9d45; padding: 5px 5px 4px; border-radius: 5px; width: 70px; height: 20px;}
 .cart_total_amount .total_orange dd{font-size: 12px; line-height: 1; font-weight: bold;}
 .btn_box{display: block;}
@@ -5069,7 +5069,6 @@ hr.line_gray_30_15{border-top: 1px solid #9a9a9a; margin: 30px 15px;}
 .p-all2 {padding: 2px;}
 .p-all5 {padding: 5px;}
 .p-all9 {padding: 9px;}
-.p-all12 {padding: 12px;}
 .p-all10 {padding: 10px;}
 .p-all15 {padding: 15px;}
 .p-all20 {padding: 20px;}

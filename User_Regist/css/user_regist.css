@@ -24,38 +24,22 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]), select, t
 .point-information { width: 100%; background-color: #C1FACF; padding: 5px 0px; border-radius: 5px; } 
 .sp-addr-num-wrap { justify-content: flex-start !important; gap: 15px; }
 
-/*-----------------------------------------------------------------------------
-Custom Input Styles
------------------------------------------------------------------------------*/
-
-/* For inputs with active IME mode */
-.input-ime-active {
-    ime-mode: active;
-}
-
-/* For inputs with inactive IME mode */
-.input-ime-inactive {
-    ime-mode: inactive;
-}
-
 /* For inputs with minimum width of 80px */
-.input-min-width-80 {
-    min-width: 80px;
-}
+.input-min-width-80 {min-width: 80px;}
 
 /* For inputs with 100% width */
-.input-width-100 {
-    width: 100%;
-}
+.input-width-100 {width: 100%;}
+
+.btn_callzip a { padding: 14px 16px 14px !important;}
 
 /*-----------------------------------------------------------------------------
 Border and Button Styles
 -----------------------------------------------------------------------------*/
 
-.border-red, .btn-red-regist, .red-outline-btn input[type='submit'] { padding: 5px 10px; border-radius: 5px; } 
-.border-red { border: 1px solid #FF4549; color: #FF4549; } 
-.btn-red-regist { display: inline-block; background-color: #FF4549; color: #FFFFFF; cursor: pointer; } 
-.red-outline-btn input[type='submit'] { -webkit-appearance: none; font-size: 12px; background-color: #FFF; color: #ff4945; border: 1px solid #ff4945; font-weight: normal; width: 50px; height: 31px; }
+.btn-outline-danger, .btn-danger{ padding: 5px 10px; border-radius: 5px; } 
+.btn-outline-danger { border: 1px solid #FF4549; color: #FF4549; } 
+.btn-square { display: inline-block; background-color: #FF4549; color: #FFFFFF; cursor: pointer; } 
+.btn-submit{ appearance: none; font-size: 12px; background-color: #FFF; font-weight: normal; width: 50px; height: 31px; }
 
 /*-----------------------------------------------------------------------------
 Icon Styles

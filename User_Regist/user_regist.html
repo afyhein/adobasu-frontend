@@ -34,7 +34,7 @@
     <!-- contents -->
     <div id="contents">
         <!-- main -->
-        <main id="main_area"> 
+        <main id="main_area">
             <!-- myacount_area -->
             <article id="myacount_area">
                 <!-- breadcrumb_area -->
@@ -60,14 +60,19 @@
                         <div class="sp-addr-input-wrap4">
                             <div>
                                 <div class="input_name">
-                                    <div>お名前<span class="required_red">必須</span></div>
-                                    <span class="m-r5"><input class="input_add valid input-ime-active" name="cname1" size="17" value="" type="text" aria-required="true" aria-invalid="false" placeholder="氏名"></span>
-                                    <span><input class="input_add input-ime-active" name="cname2" size="17" value="" type="text" placeholder="名前名前"></span>
+                                    <div class="m-b5">お名前<span class="icon_required m-l10">必須</span></div>
+                                    <span class="m-r5"><input class=" valid " name="cname1"
+                                            size="17" value="" type="text" aria-required="true" aria-invalid="false"
+                                            placeholder="氏名"></span>
+                                    <span><input class=" " name="cname2" size="17" value=""
+                                            type="text" placeholder="名前名前"></span>
                                     <div class="err_msg_cname err_box"></div>
                                 </div>
                                 <div class="input_name">
-                                    <span class="m-r5"><input class="input_add input-ime-active" name="ckana1" size="15" value="" type="text" placeholder="シメイ"></span>
-                                    <span><input class="input_add input-ime-active" name="ckana2" size="14" value="" type="text" placeholder="ナマエナマエ"></span>
+                                    <span class="m-r5"><input class=" " name="ckana1" size="15"
+                                            value="" type="text" placeholder="シメイ"></span>
+                                    <span><input class=" " name="ckana2" size="14" value=""
+                                            type="text" placeholder="ナマエナマエ"></span>
                                 </div>
                                 <div class="err_msg_ckana err_box"></div>
                             </div>
@@ -76,31 +81,38 @@
                             <div>
                                 <div>
                                     <div class="input_name">
-                                        <div>郵便番号<span class="required_red">必須</span></div>
+                                        <div class="m-b5">郵便番号<span class="icon_required m-l10">必須</span></div>
                                         <div class="sp-addr-num-wrap">
                                             <span class="sp-addr-num-wrap__inner">
-                                                <input class="input_add input-min-width-80 input-ime-inactive" name="czip1" size="3" maxlength="3" value="100" type="text">
-                                                    <div class="p-lr10">-</div>
-                                                    <input class="input_add input-min-width-80 input-ime-inactive" name="czip2" size="4" maxlength="4" value="1000" type="text">
+                                                <input class=" input-min-width-80 "
+                                                    name="czip1" size="3" maxlength="3" value="100" type="text">
+                                                <div class="p-lr10">-</div>
+                                                <input class=" input-min-width-80 "
+                                                    name="czip2" size="4" maxlength="4" value="1000" type="text">
                                             </span>
-                                            <div class="adress_wrap">
+                                            <div>
                                                 <span class="btn_callzip"><a
                                                         href="javascript:void(0);">住所を自動入力</a></span>
                                             </div>
                                         </div>
                                         <div class="pulldown m-b5">
-                                            <div>都道府県<span class="required_red">必須</span></div>
-                                            <input class="input_add valid input-width-100 input-ime-active" name="prefecture" size="15" value="" type="text" placeholder="東京都" aria-required="true" aria-invalid="false">
+                                            <div class="m-b5">都道府県<span class="icon_required m-l10">必須</span></div>
+                                            <input class=" valid input-width-100 "
+                                                name="prefecture" size="15" value="" type="text" placeholder="東京都"
+                                                aria-required="true" aria-invalid="false">
                                         </div>
                                         <div>
-                                            <input class="input_add valid input-width-100 input-ime-active" name="cadd2" size="15" value="" type="text" placeholder="東京都千代田区鍛冶町00-000　XXXXビル1F" aria-required="true" aria-invalid="false">
+                                            <input class=" valid input-width-100 " name="cadd2"
+                                                size="15" value="" type="text" placeholder="東京都千代田区鍛冶町00-000　XXXXビル1F"
+                                                aria-required="true" aria-invalid="false">
                                         </div>
                                         <div class="err_msg_cadd2 err_box" style="display: none;"></div>
                                     </div>
                                     <div class="input_name">
-                                        <div class="m-t5">電話番号<span class="required_red">必須</span><span
+                                        <div class="m-b5">電話番号<span class="icon_required m-l10">必須</span><span
                                                 class="red m-l10">数字のみ　ハイフンは不要です</span></div>
-                                        <div><input class="input_add input-width-100 input-ime-inactive" name="ctel" size="15" value="" type="text" placeholder="012345678901">
+                                        <div><input class=" input-width-100 " name="ctel"
+                                                size="15" value="" type="text" placeholder="012345678901">
                                         </div>
                                         <div class="err_msg_ckana err_box"></div>
                                     </div>
@@ -280,7 +292,7 @@
                     </div>
                     <div class="sec03 p-lr12">
                         <div class="form-group m-t15">
-                            <label for="gender" class="border-red">性別</label>
+                            <label for="gender" class="btn-outline-danger">性別</label>
                             <div class="radio-group flex_layout flex_a_center m-t15">
                                 <label><input type="radio" name="gender" value="女性"> 女性</label>
                                 <label><input type="radio" name="gender" value="男性"> 男性</label>
@@ -288,7 +300,7 @@
                             </div>
                         </div>
                         <div class="form-group m-t25">
-                            <label for="interest" class="border-red">恋愛対象</label>
+                            <label for="interest" class="btn-outline-danger">恋愛対象</label>
                             <div class="radio-group flex_layout flex_a_center m-t15">
                                 <label><input type="radio" name="interest" value="女性"> 女性</label>
                                 <label><input type="radio" name="interest" value="男性"> 男性</label>
@@ -296,7 +308,7 @@
                             </div>
                         </div>
                         <div class="form-group m-t25">
-                            <label for="occupation" class="border-red">職業</label>
+                            <label for="occupation" class="btn-outline-danger">職業</label>
                             <div class="radio-group flex_layout flex_a_center advanced_flex_wrap m-t15">
                                 <label><input type="radio" name="occupation" value="会社員"> 会社員</label>
                                 <label><input type="radio" name="occupation" value="自営業"> 自営業</label>
@@ -324,7 +336,7 @@
                     <div class="sec04 p-lr12">
                         <div class="box01 flex_layout flex_j_between m-t10">
                             <p>未登録</p>
-                            <a href="#" class="btn-red-regist">新規登録する</a>
+                            <a href="#" class="btn-danger btn-square">新規登録する</a>
                         </div>
                     </div>
                     <div class="myacount_area m-t25">
@@ -343,8 +355,8 @@
                             </div>
                             <div class="right m-t10 flex_layout flex_j_end flex_a_end flex-b-30" style="width: 100%;">
                                 <div class="flex_layout flex_j_end flex_a_center" style="width: 100%;">
-                                    <form class="red-outline-btn" action="#">
-                                        <input type="submit" value="変更">
+                                    <form action="#">
+                                        <input class="btn-submit btn-outline-danger" type="submit" value="変更">
                                     </form>
                                     <div class="icon-bank-pay m-l10"></div>
                                 </div>
@@ -364,10 +376,11 @@
                                     <h3 class="ts16 m-t10 fw-b">ローソン ＬＴＦ京成千葉中央駅前 店</h3>
                                     <p class="m-t25">千葉県千葉市中央区富士見２‐２３‐７</p>
                                 </div>
-                                <div class="right-content m-t10 flex_layout flex_j_end flex_a_end flex-b-30" style="width: 100%;">
+                                <div class="right-content m-t10 flex_layout flex_j_end flex_a_end flex-b-30"
+                                    style="width: 100%;">
                                     <div class="flex_layout flex_j_end flex_a_center" style="width: 100%;">
-                                        <form class="red-outline-btn" action="#">
-                                            <input type="submit" value="変更">
+                                        <form action="#">
+                                            <input class="btn-submit btn-outline-danger" type="submit" value="変更">
                                         </form>
                                         <div class="icon-bank-pay m-l10"></div>
                                     </div>
@@ -383,10 +396,11 @@
                                     <h3 class="ts16 m-t10 fw-b">美浜郵便局</h3>
                                     <p class="m-t25">千葉県千葉市美浜区真砂４－１－１</p>
                                 </div>
-                                <div class="right-content flex-b-30 m-t10 flex_layout flex_j_end flex_a_end" style="width: 100%;">
+                                <div class="right-content flex-b-30 m-t10 flex_layout flex_j_end flex_a_end"
+                                    style="width: 100%;">
                                     <div class="flex_layout flex_j_end flex_a_center" style="width: 100%;">
-                                        <form class="red-outline-btn" action="#">
-                                            <input type="submit" value="変更">
+                                        <form action="#">
+                                            <input class="btn-submit btn-outline-danger" type="submit" value="変更">
                                         </form>
                                         <div class="icon-bank-pay m-l10"></div>
                                     </div>
@@ -402,7 +416,7 @@
                                     <h3 class="ts16 fw-b">未登録</h3>
                                 </div>
                                 <div class="right-content">
-                                    <a href="#" class="btn-red-regist">新規登録する</a>
+                                    <a href="#" class="btn-danger btn-square">新規登録する</a>
                                 </div>
                             </div>
                         </div>
@@ -411,57 +425,60 @@
                         </div>
                     </div>
                 </div>
-            <!-- list_item -->
-            <div class="myacount_area">
+                <!-- list_item -->
+                <div class="myacount_area">
 
-                <div class="myaccount">
-                    <h2>会員情報</h2>
+                    <div class="myaccount">
+                        <h2>会員情報</h2>
+                    </div>
+
+                    <ul class="myacount_list">
+                        <li class="icon_guide_account"><a href="/" target="_blank">ご登録情報<p>ご住所、配送方法の追加・変更</p></a></li>
+                        <li class="icon_guide_mail"><a href="/" target="_blank">メールアドレス・パスワード変更<p>メールアドレス・パスワードの変更</p>
+                                </a></li>
+                        <li class="icon_guide_security"><a href="/" target="_blank">2段階認証<p>セキュリティ設定</p></a></li>
+                        <li class="icon_guide_magazine"><a href="/" target="_blank">メールマガジン<p>登録・解除</p></a></li>
+                        <li class="icon_guide_questionnaire"><a href="/" target="_blank">会員限定アンケート<p>アンケートに答えてポイントをゲット
+                                </p></a></li>
+                        <li class="icon_guide_service"><a href="/" target="_blank">会員規約</a></li>
+                        <li class="icon_guide_logout"><a href="/" target="_blank">ログアウト</a></li>
+                        <li class="icon_guide_withdrawal"><a href="/" target="_blank">退会<p class="txt_red">
+                                    ※現在発注前のご注文がありますので、退会処理はできません。</p></a></li>
+                    </ul>
+
                 </div>
+                <!-- //list_item -->
 
-                <ul class="myacount_list">
-                    <li class="icon_guide_account"><a href="/" target="_blank">ご登録情報<p>ご住所、配送方法の追加・変更</p></a></li>
-                    <li class="icon_guide_mail"><a href="/" target="_blank">メールアドレス・パスワード変更<p>メールアドレス・パスワードの変更</p></a></li>
-                    <li class="icon_guide_security"><a href="/" target="_blank">2段階認証<p>セキュリティ設定</p></a></li>
-                    <li class="icon_guide_magazine"><a href="/" target="_blank">メールマガジン<p>登録・解除</p></a></li>
-                    <li class="icon_guide_questionnaire"><a href="/" target="_blank">会員限定アンケート<p>アンケートに答えてポイントをゲット</p></a></li>
-                    <li class="icon_guide_service"><a href="/" target="_blank">会員規約</a></li>
-                    <li class="icon_guide_logout"><a href="/" target="_blank">ログアウト</a></li>
-                    <li class="icon_guide_withdrawal"><a href="/" target="_blank">退会<p class="txt_red">※現在発注前のご注文がありますので、退会処理はできません。</p></a></li>
-                </ul>
-
-            </div>
-            <!-- //list_item --> 
-
-            <!-- cart_privacy -->
-            <div class="cart_privacy">
-                <div><a href="" target="_blank"><img src="images/common/footer/degi_smart.png" alt=""></a>
+                <!-- cart_privacy -->
+                <div class="cart_privacy">
+                    <div><a href="" target="_blank"><img src="images/common/footer/degi_smart.png" alt=""></a>
+                    </div>
+                    <p>当店はお客様の個人情報をSSL暗号化し、安全な通信を提供しています。</p>
                 </div>
-                <p>当店はお客様の個人情報をSSL暗号化し、安全な通信を提供しています。</p>
-            </div>
-            <!-- //cart_privacy -->
+                <!-- //cart_privacy -->
 
-        </article>
-        <!-- //myacount_area -->
+            </article>
+            <!-- //myacount_area -->
 
-    </main>
-    <!-- //main -->
+        </main>
+        <!-- //main -->
 
-</div>
-<!-- contents -->
-
-<footer id="footer_fix">
-    <div class="wrap">
-        <!-- copyright -->
-        <div id="copyright" class="left">
-            Copyright (C) <!-- 2024- -->
-            <script type="text/javascript">
-                document.write(new Date().getFullYear());
-            </script>2024 大人のおもちゃとアダルトグッズ通販ショップ 1 NIGHT LOVE STORY　All Rights Reserved.<br>1 NIGHT LOVE
-            STORY　株式会社ニジューヨン・ビムーンズ
-        </div>
-        <!-- //copyright -->
     </div>
-</footer>
+    <!-- contents -->
+
+    <footer id="footer_fix">
+        <div class="wrap">
+            <!-- copyright -->
+            <div id="copyright" class="left">
+                Copyright (C) <!-- 2024- -->
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>2024 大人のおもちゃとアダルトグッズ通販ショップ 1 NIGHT LOVE STORY　All Rights Reserved.<br>1 NIGHT LOVE
+                STORY　株式会社ニジューヨン・ビムーンズ
+            </div>
+            <!-- //copyright -->
+        </div>
+    </footer>
 </body>
 
 </html>
