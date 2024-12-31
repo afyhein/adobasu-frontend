@@ -9,7 +9,7 @@
 .sec {padding: 15px;}
 a.link {color: #47AFFF;text-decoration: underline;}
 
-/* cart_list_component */
+/* cart_item_list */
 .cart_item_list li:last-child .cart_contents {border: none;}
 .cart_item_list .cart_item_img img {width: 75px;height: auto;border: none;}
 .cart_item_list .cart_item_img {flex-basis: 100px;}
@@ -43,15 +43,13 @@ a.link {color: #47AFFF;text-decoration: underline;}
 .order-status {display: flex;margin-top: 10px; justify-content: space-between;}
 .order-detail {display: flex;flex-direction: column;gap: 7px;}
 
-
-
 /* sec02 */
 .sec02 {padding-top: 0;padding-bottom: 0;}
 
-/* ////////////////// section_04 ////////////////// */
+/* sec04 */
 .btn_blue_line {color: #47AFFF;width: 50%;border-radius: 40px;border: 1px solid #47AFFF;}
 
-/* ////////////////// section_05 ////////////////// */
+/* sec05 */
 .sec05 {border-bottom: none;}
 .sec05 .ft-red {color: #ff4549;}
 .sec05 .order-status2 {padding: 15px;}
@@ -62,13 +60,13 @@ a.link {color: #47AFFF;text-decoration: underline;}
 .sec05 .payment_content li:has(h3) {padding: 0;}
 .sec05 .payment_content li:last-child {border-bottom: none;padding-bottom: 0;}
 
-/* ////////////////// section_06 ////////////////// */
+/* sec06 */
 .sec06 .table .notice {font-size: 8px;color: #ff4945;}
 .sec06 .accordion label {position: relative;}
 .sec06 .accordion label input {padding-right: 31px;}
 .sec06 .accordion label button {position: absolute;top: 35%;right: 15px;cursor: pointer;color: #707070;}
 
-/* ////////////////// section_08 ////////////////// */
+/* sec08 */
 .sec08 {border-bottom: none;}
 
 
